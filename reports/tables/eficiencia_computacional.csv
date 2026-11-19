@@ -1,0 +1,5 @@
+Modelo,Tarefa,Arquitetura,Parametros,MACs_amostra,FLOPs_amostra,Epocas,Tempo_Treino_s,Tempo_Epoca_ms,Latencia_BS1_ms,Throughput_BS1_amostras_s,Latencia_BS32_ms_amostra,Throughput_BS32_amostras_s,RAM_Processo_MB,Delta_RAM_MB,Energia_Treino_Wh,Emissao_CO2_g,Metodo_Energia
+MLP Baseline (Reg),regressao,"(32, 32)",1281,1216,2432,36,0.3661,10.17,0.0203,49181.9,0.00099,1008596.0,850.53,179.37,0.002817,0.000277,CodeCarbon
+MLP Otimizada (Reg),regressao,"(128, 128)",17409,17152,34304,23,0.2551,11.091,0.0236,42445.8,0.00115,870324.5,851.89,1.35,0.002335,0.00023,CodeCarbon
+MLP Baseline (Cls),classificacao,"(32, 32)",1281,1216,2432,42,0.4121,9.811,0.0229,43734.6,0.00094,1064309.4,852.89,1.0,0.003254,0.00032,CodeCarbon
+MLP Otimizada (Cls),classificacao,"(128, 128)",17409,17152,34304,28,0.2876,10.271,0.0243,41115.1,0.00105,949264.3,853.44,0.54,0.002212,0.000218,CodeCarbon
