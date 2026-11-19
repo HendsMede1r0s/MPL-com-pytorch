@@ -1,0 +1,3 @@
+Modelo,Parâmetros,Teórico float32 (KB),Disco Real (KB),Overhead (Bytes),allclose,Diff Máxima,Métrica Antes,Métrica Depois
+modelo_regressao.pt,17409,68.0,72.46,4561,True,0.00e+00,1.750139,1.750139
+modelo_classificacao.pt,17409,68.0,72.07,4159,True,0.00e+00,0.773723,0.773723
